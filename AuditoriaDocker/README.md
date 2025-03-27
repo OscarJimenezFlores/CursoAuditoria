@@ -18,10 +18,7 @@ Es una herramienta de auditoría forense para entornos Docker.El script en Bash/
 ## ​🛠️​ Instalación y Uso
 
 1. Clona este repositorio o descarga el script `DockerAuditor.sh` si estásn en Linux y `DockerAuditor.ps1` si estás en Windows:
-```bash
-git clone https://github.com/Mayky23/DockerAuditor.git
-cd AuditoriaDocker
-```
+
 (Opcional pero recomendado) Crea un entorno virtual:
 ```bash
 python -m venv venv
