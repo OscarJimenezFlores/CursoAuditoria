@@ -34,7 +34,7 @@ Identificación y gestión automatizada de riesgos en activos digitales, que uti
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/repositorio.git
+git clone https://github.com/OscarJimenezFlores/CursoAuditoria/tree/c1470d3bd4dbc65dd70a6231a5ba64f456126336/AuditoriaRiesgos
 cd repositorio
 ```
 
