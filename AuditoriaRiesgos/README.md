@@ -52,7 +52,7 @@ La aplicación estará disponible en: http://localhost:5173
 ```bash
 brew install ollama
 ollama pull llama3
-ollama run --port 11434
+ollama run 
 ```
 
 #### Para usuarios Windows
@@ -61,7 +61,7 @@ ollama run --port 11434
 2. Ejecutar en PowerShell:
 
 ```bash
-ollama run --port 11434
+ollama run 
 ```
    Opcionalmente, puede verificar estado del servicio:
 ```bash
