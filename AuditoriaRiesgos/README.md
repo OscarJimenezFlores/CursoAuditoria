@@ -19,7 +19,7 @@ Identificación y gestión automatizada de riesgos en activos digitales, que uti
 - **Flask** (servidor web ligero en Python)
 - **Ollama** (infraestructura local para modelos LLM)
 - **LangChain** (orquestación de prompts avanzados)
-- **LLAMA3** (modelo de lenguaje para recomendaciones)
+- **LLAMA** (modelo de lenguaje para recomendaciones)
 
 ## Requisitos del Sistema
 
@@ -51,7 +51,7 @@ La aplicación estará disponible en: http://localhost:5173
 #### Para usuarios macOS
 ```bash
 brew install ollama
-ollama pull llama3
+ollama pull llama
 ollama run 
 ```
 
