@@ -4,21 +4,52 @@
 flowchart TD
     direction TB
 
-    A[1. Contratación y Aceptación del Servicio\n- Reunión inicial con el cliente\n- Firma del contrato de auditoría\n- Definición de equipos de trabajo] --> 
-    B[2. Planificación de la Auditoría\n- Revisión preliminar del sistema\n- Definición de objetivos\n- Plan aprobado]
-    
-    B --> C[3. Recolección de Información\n- Entrevistas con personal\n- Revisión documental\n- Inspección técnica\n- Identificación de riesgos]
-    
-    C --> D[4. Evaluación y Análisis\n- Evaluación de controles internos\n- Pruebas técnicas\n- Revisión de cumplimiento\n- Evaluación de procesos]
-    
-    D --> E[5. Informe Preliminar\n- Redacción de hallazgos\n- Revisión interna\n- Envío al cliente]
-    
-    E --> F[6. Reunión con el Cliente\n- Presentación de resultados\n- Discusión de acciones\n- Ajustes al informe]
-    
-    F --> G[7. Informe Final\n- Redacción final\n- Revisión interna\n- Aprobación]
-    
-    G --> H[8. Entrega del Informe\n- Entrega formal\n- Firma del cliente]
-    
-    H --> I[9. Exposición al Dueño\n- Preparación\n- Exposición\n- Respuestas y aclaraciones]
-    
-    I --> J[10. Cierre de la Auditoría\n- Reunión de cierre\n- Archivo y documentación]
+    A[Contratación y Aceptación del Servicio] --> B[Planificación de la Auditoría]
+    B --> C[Recolección de Información]
+    C --> D[Evaluación y Análisis]
+    D --> E[Informe Preliminar]
+    E --> F[Reunión con el Cliente]
+    F --> G[Informe Final]
+    G --> H[Entrega del Informe]
+    H --> I[Exposición al Dueño]
+    I --> J[Cierre de la Auditoría]
+
+    A1[Reunión inicial] --> A
+    A2[Firma del contrato] --> A
+    A3[Definición de equipos] --> A
+
+    B1[Revisión preliminar] --> B
+    B2[Definición de objetivos] --> B
+    B3[Plan aprobado] --> B
+
+    C1[Entrevistas clave] --> C
+    C2[Revisión documental] --> C
+    C3[Inspección técnica] --> C
+    C4[Identificación de riesgos] --> C
+
+    D1[Controles internos] --> D
+    D2[Pruebas técnicas] --> D
+    D3[Cumplimiento normativo] --> D
+    D4[Procesos y procedimientos] --> D
+
+    E1[Redacción de hallazgos] --> E
+    E2[Revisión interna] --> E
+    E3[Envío preliminar] --> E
+
+    F1[Presentación preliminar] --> F
+    F2[Discusión de acciones] --> F
+    F3[Ajustes al informe] --> F
+
+    G1[Redacción final] --> G
+    G2[Revisión final] --> G
+    G3[Aprobación final] --> G
+
+    H1[Entrega formal] --> H
+    H2[Firma del cliente] --> H
+
+    I1[Preparación exposición] --> I
+    I2[Presentación] --> I
+    I3[Respuestas y aclaraciones] --> I
+
+    J1[Reunión de cierre] --> J
+    J2[Archivo y documentación] --> J
