@@ -1,4 +1,4 @@
-## Auditoría de sistemas 
+## Auditoría de sistemas
 
 ```mermaid
 flowchart TD
