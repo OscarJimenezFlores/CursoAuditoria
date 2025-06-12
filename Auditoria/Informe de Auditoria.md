@@ -1,205 +1,130 @@
-# AUDITORÍA DE CUMPLIMIENTO
+# INFORME FINAL DE AUDITORÍA DE SISTEMAS
 
-**[ENTIDAD / DEPENDENCIA]**  
-**[UBICACIÓN GEOGRÁFICA]**  
-(Indicar el distrito, provincia y departamento)
+## CARÁTULA
 
-**“[MATERIA DE CONTROL]”**  
-(Concordante con el objetivo, redactado en forma breve y específica)
+**Entidad Auditada:** [Nombre de la entidad o dependencia]  
+**Ubicación:** [Ciudad, distrito, provincia, país]  
+**Período auditado:** [Desde dd/mm/aaaa hasta dd/mm/aaaa]  
+**Equipo Auditor:** [Nombres y roles del equipo auditor]  
+**Fecha del informe:** [dd/mm/aaaa]  
 
-**[LUGAR Y FECHA DE APROBACIÓN]**
-
-**[“Denominación oficial del decenio”]**  
-**[“Denominación oficial del año”]**
-
----
 
 ## ÍNDICE
 
-| DENOMINACIÓN | N° Pág. |
-|--------------|---------|
-| I. ORIGEN |         |
-| II. MATERIA DE CONTROL Y ALCANCE |         |
-| a. Objetivos |         |
-| b. Alcance |         |
-| c. Criterios de auditoría |         |
-| d. Costos y recursos |         |
-| e. Cronograma |         |
-| f. Procedimientos |         |
-| III. LABORES DE CONTROL RELACIONADAS CON LA MATERIA DE CONTROL |         |
-| IV. OTROS ASPECTOS RELACIONADOS A LA MATERIA DE CONTROL |         |
-| V. PUNTOS DE ATENCIÓN A EVALUAR A LA MATERIA DE CONTROL |         |
-| VI. DOCUMENTACIÓN E INFORMACIÓN RELACIONADA CON LOS ANTECEDENTES DE LA ENTIDAD/DEPENDENCIA |         |
-| VII. PROYECTO DE OFICIO DE ACREDITACIÓN O COMUNICACIÓN DE INICIO DE LA AUDITORÍA DE CUMPLIMIENTO |         |
+1. [Resumen Ejecutivo](#1-resumen-ejecutivo)  
+2. [Antecedentes](#2-antecedentes)  
+3. [Objetivos de la Auditoría](#3-objetivos-de-la-auditoría)  
+4. [Alcance de la Auditoría](#4-alcance-de-la-auditoría)  
+5. [Normativa y Criterios de Evaluación](#5-normativa-y-criterios-de-evaluación)  
+6. [Metodología y Enfoque](#6-metodología-y-enfoque)  
+7. [Hallazgos y Observaciones](#7-hallazgos-y-observaciones)  
+8. [Análisis de Riesgos](#8-análisis-de-riesgos)  
+9. [Recomendaciones](#9-recomendaciones)  
+10. [Conclusiones](#10-conclusiones)  
+11. [Plan de Acción y Seguimiento](#11-plan-de-acción-y-seguimiento)  
+12. [Anexos](#12-anexos)  
 
----
 
-## CARPETA DE SERVICIO N°
 
-### AUDITORÍA DE CUMPLIMIENTO A LA [ENTIDAD / DEPENDENCIA]  
-[UBICACIÓN GEOGRÁFICA]  
-(Indicar el distrito, provincia y departamento)  
+## 1. RESUMEN EJECUTIVO
 
-**“[MATERIA DE CONTROL]”**
+Este apartado se desarrolla al final de la auditoría realizada y es una descripción breve y concisa del propósito de la auditoría, principales hallazgos, conclusiones y recomendaciones más relevantes.
 
-### I. ORIGEN
 
-**Unidad Orgánica/Órgano Desconcentrado de la Organización:**  
-[Cuando la Auditoría de Cumplimiento esté a cargo de la Organización, especificar la unidad orgánica o el órgano desconcentrado]
 
-**Órgano de Control Institucional (OCI):**  
-[Cuando la Auditoría de Cumplimiento esté a cargo del OCI, colocar las siglas OCI y el nombre de la entidad o dependencia]
+## 2. ANTECEDENTES
 
-**Auditoría de Cumplimiento:**  
-Programado/No programado en el [Plan Operativo [año] de la [unidad orgánica u órgano desconcentrado de la Organización] / [Plan Anual de Control [año] del Órgano de Control Institucional (OCI), a cargo de la Auditoría de Cumplimiento].
+Contexto general de la entidad, naturaleza de sus sistemas de información, estructura organizativa, y antecedentes de auditorías previas (si las hubiera).
 
-**Entidad o dependencia sujeta a control:**  
-[Nombre de la entidad o dependencia], ubicada en [indicar distrito, provincia y departamento donde se ubica la entidad o dependencia]
 
-**Solicitud de intervención del Sistema Nacional de Control:**  
-Disposición de alguno de los órganos de la Alta Dirección de la Organización en el marco de sus atribuciones, ante alguna situación imprevista o a solicitud de alguna(s) fuente(s) externa(s).
 
-**Código de la Auditoría de Cumplimiento en el Sistema de Control Gubernamental - SCG:**  
-[Indicar el código de la Auditoría de Cumplimiento registrado en el SCG]
+## 3. OBJETIVOS DE LA AUDITORÍA
 
----
+Definición del objetivo general y los objetivos específicos, orientados a evaluar aspectos como:
 
-## II. MATERIA DE CONTROL Y ALCANCE
+- Seguridad de la información
+- Continuidad del negocio
+- Gestión de cambios y configuración
+- Cumplimiento normativo
+- Integridad y disponibilidad de datos
+- etc
 
-[Describir de manera general la materia de control que comprende el asunto y el monto, este último cuando corresponda según la naturaleza del servicio de control]
 
-### a. OBJETIVOS  
-[Determinar los objetivos (general y específicos) que se pretenden lograr con el desarrollo de la Auditoría de Cumplimiento]
+## 4. ALCANCE DE LA AUDITORÍA
 
-### b. ALCANCE  
-[Indicar la auditoría de cumplimiento comprende el período de [día] de [mes] de [año] al [día] de [mes] de [año], unidades orgánicas examinadas y el ámbito geográfico donde se realizó la auditoría.]
+- Ámbitos evaluados (tecnológico, organizacional, normativo, etc.)
+- Sistemas y procesos incluidos
+- Unidades o áreas auditadas
+- Periodo auditado
 
-### c. CRITERIOS DE AUDITORÍA APLICABLES
 
-La normativa aplicable a la Auditoría de Cumplimiento es la siguiente:
 
-[Según sea el caso, precisar denominación de la norma, número y fecha del documento de aprobación y publicación]
+## 5. NORMATIVA Y CRITERIOS DE EVALUACIÓN
 
-- […]
-- […]
+Lista de normas, marcos de referencia o políticas aplicadas como base para la auditoría. Ejemplos:
 
-### d. COSTOS Y RECURSOS
+- COBIT 2019  
+- ISO/IEC 27001:2022  
+- Ley de Protección de Datos Personales [local]  
+- Políticas internas de TI de la entidad
 
-#### A. Comisión Auditora y plazo estimado  
-Comprende los profesionales designados para conformar la Comisión Auditora responsable del desarrollo de la Auditoría de Cumplimiento, así como el plazo estimado por cada miembro de la Comisión Auditora para el cumplimiento de los objetivos propuestos según se muestra a continuación:
 
-**Cuadro n.° 1 - Comisión Auditora y plazo estimado**
+## 6. METODOLOGÍA Y ENFOQUE
 
-(*) Consignar iniciales de los nombres y apellidos completos con letra mayúscula.
+Descripción del enfoque utilizado (basado en riesgos, cumplimiento, mixto) y métodos aplicados:
 
-*Elaborado por: [Nombre del órgano desconcentrado o unidad orgánica de la Organización, u OCI]*
+- Entrevistas con usuarios y responsables de TI  
+- Inspección de documentos y registros  
+- Pruebas técnicas (análisis de logs, escaneo de vulnerabilidades)  
+- Revisión de configuraciones  
+- Aplicación de listas de verificación
 
-#### B. Costos directos estimados  
-Los costos directos estimados que demandará el desarrollo de la Auditoría de Cumplimiento se detallan en el cuadro siguiente:
 
-**Cuadro n.° 2 - Costo de horas hombre y asignación**
+## 7. HALLAZGOS Y OBSERVACIONES
 
-| Código | Nombres y apellidos e iniciales (*) | Rol | Profesión | Días hábiles | Planificación | Ejecución | Elaboración de Informe | Total |
-|--------|--------------------------------------|-----|------------|---------------|----------------|-----------|-------------------------|-------|
-| Supervisor | | | | | | | | |
-| Jefe de Comisión | | | | | | | | |
-| Integrante 1 | | | | | | | | |
-| Integrante [n] | | | | | | | | |
+Presentación detallada de los hallazgos, estructurados por áreas evaluadas. Cada hallazgo debe incluir:
 
-| N° | Nombres, apellidos y rol | N° días | Costo H/H S/ | Asignación S/ | Costo Total S/ | Pasajes | Viáticos |
-|----|---------------------------|---------|---------------|----------------|----------------|---------|----------|
-| 1  | Supervisor                |         |               |                |                |         |          |
-| 2  | Jefe de Comisión          |         |               |                |                |         |          |
-| 3  | Integrante 1              |         |               |                |                |         |          |
-| 4  | Integrante [n]            |         |               |                |                |         |          |
-| **Total S/** | | | | | | | |
+- Descripción del hallazgo  
+- Evidencia objetiva  
+- Grado de criticidad (alto, medio, bajo)  
+- Criterio vulnerado  
+- Causa y efecto
 
----
 
-### e. CRONOGRAMA
+## 8. ANÁLISIS DE RIESGOS
 
-[Precisar las fechas estimadas para el desarrollo de cada etapa de la Auditoría de Cumplimiento y los plazos de entrega del Informe de Auditoría]
+Evaluación del impacto y probabilidad de los riesgos identificados, asociados a los hallazgos encontrados.
 
----
+| Hallazgo | Riesgo asociado | Impacto | Probabilidad | Nivel de Riesgo |
+|----------|-----------------|---------|--------------|-----------------|
+| [N°]     | [Descripción]   | Alto/Medio/Bajo | Alta/Media/Baja | Alto/Medio/Bajo |
 
-### f. PROCEDIMIENTOS DE AUDITORÍA
 
-Los procedimientos de auditoría que se aplicarán para el cumplimiento de los objetivos de la Auditoría de Cumplimiento se detallan a continuación:
+## 9. RECOMENDACIONES
+¿Qué debe hacerse al respecto para mejorar, corregir o mitigar los riesgos?. Propuestas técnicas y organizativas para mitigar los riesgos y subsanar los hallazgos. Cada recomendación debe estar vinculada al hallazgo correspondiente.
 
-[Señalar los procedimientos que se aplicarán para el cumplimiento de los objetivos de la auditoría de cumplimiento, en forma ordenada y clasificada lógicamente, con precisión del objetivo y procedimientos].
 
-**Cuadro n.º 3 - Procedimientos**
+## 10. CONCLUSIONES
+¿Qué se ha encontrado? ¿Cuál es el estado general del sistema auditado?. Síntesis evaluativa sobre el estado de control y gestión de los sistemas de información auditados. Indicar si los controles existentes son adecuados, eficaces y cumplen con la normativa aplicable.
 
-**OBJETIVOS / PROCEDIMIENTOS**
 
-- Objetivo específico n.°  
-  - Procedimientos:  
-    1.  
-    2.  
-## III. LABORES DE CONTROL RELACIONADAS CON LA MATERIA DE CONTROL
+## 11. PLAN DE ACCIÓN Y SEGUIMIENTO
 
-[Consignar los servicios de control o relacionados efectuados por el Sistema Nacional de Control]
+Propuesta de plan de acción acordado con la entidad auditada:
 
----
+| Hallazgo | Recomendación | Responsable | Fecha Comprometida |
+|----------|----------------|-------------|---------------------|
+| [N°]     | [Texto]         | [Área o persona] | [dd/mm/aaaa]     |
 
-## IV. OTROS ASPECTOS RELACIONADOS A LA MATERIA DE CONTROL
 
-[De ser el caso, señalar información de los medios de comunicación u otros]
 
----
+## 12. ANEXOS
 
-## V. PUNTOS DE ATENCIÓN A EVALUAR DE LA MATERIA DE CONTROL
+Incluir documentos de respaldo como:
 
-[Asuntos de la materia de control que requieren evaluación]
+- Cuestionarios aplicados  
+- Capturas de pantalla  
+- Registros de logs  
+- Políticas internas revisadas  
+- Cualquier otro elemento que sustente los hallazgos
 
----
-
-## VI. DOCUMENTACIÓN E INFORMACIÓN RELACIONADA CON LOS ANTECEDENTES DE LA ENTIDAD/DEPENDENCIA
-
-[Consignar la documentación e información relacionada con los antecedentes de la entidad/dependencia]
-
----
-
-## VII. PROYECTO DE OFICIO DE ACREDITACIÓN O COMUNICACIÓN DE INICIO DE LA AUDITORÍA DE CUMPLIMIENTO
-
-Se adjunta el proyecto de [oficio de acreditación/comunicación de inicio de la auditoría de cumplimiento] para revisión.  
-[Considerar los formatos establecidos en el Anexo N.º 2.A y Anexo N.º 3 del Manual de Auditoría de Cumplimiento]
-
-**[Lugar], [día] de [mes] de [año].**
-
----
-
-**[Nombres y Apellidos]**  
-Personal a cargo del Planeamiento de la Auditoría de Cumplimiento  
-[Del órgano desconcentrado o de la unidad orgánica de la Organización o del OCI]
-
----
-
-### Aprobación de la Carpeta de Servicio
-
-**[Cuando la Carpeta de Servicio es elaborada por un órgano desconcentrado o unidad orgánica de la Organización, la aprobación es de la forma siguiente:]**
-
-Revisado y Aprobado por [órgano desconcentrado o unidad orgánica de la Organización]:
-
-**____________________________**  
-[Nombres y Apellidos]  
-Responsable del órgano desconcentrado o unidad orgánica de la Organización  
-[Lugar], [día] de [mes] de [año]
-
----
-
-**[Cuando la Carpeta de Servicio de Control es elaborada por el personal a cargo del planeamiento del OCI, la aprobación es de la forma siguiente:]**
-
-Revisado por el Jefe del OCI del/de la [nombre de la entidad o dependencia]:
-
-**____________________________**  
-[Nombres y Apellidos]  
-Jefe del OCI  
-[Denominación de la entidad o dependencia]  
-[Lugar], [día] de [mes] de [año]
-
-Revisado y Aprobado por [nivel superior jerárquico del cual depende el OCI]:
-
-**____________________________**  
-[Nombres y Apellidos]  
-Responsable del nivel superior jerárquico del cual depende el OCI
