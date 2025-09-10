@@ -3,24 +3,62 @@
 
 ### Instrucciones Generales
 
- Como auditor externo contrado por un banco, debe evaluar los activos de información, utilizando modelos de lenguaje avanzados ejecutados localmente. Este proceso incluye la generación automática de perfiles de riesgo, análisis de impactos, recomendaciones de mitigación alineadas con ISO 27001 y una interfaz intuitiva para la gestión de casos identificados.
+ Como auditor externo contratado por un banco, debe evaluar los activos de información, utilizando modelos de lenguaje avanzados ejecutados localmente. Este proceso incluye la generación automática de perfiles de riesgo, análisis de impactos, recomendaciones de mitigación alineadas con ISO 27001 y una interfaz intuitiva para la gestión de casos identificados.
 
 Por tanto deberá:
 
-1. **Crear su propio repositorio en GitHub** (fork o clon del repositorio base) y registrar ahí todos sus avances y resultados.
-2. Clonar y ejecutar el repositorio base proporcionado. 🔗 [URL GitHub](https://github.com/OscarJimenezFlores/CursoAuditoria/tree/c1470d3bd4dbc65dd70a6231a5ba64f456126336/AuditoriaRiesgos)
-4. Modificar el sistema para incluir una funcionalidad de **inicio de sesión ficticio sin base de datos**.
-3. Evaluar **5 activos de información** del entorno bancario (Lista Anexo 1).
-5. Elaborar un **informe técnico** que contenga:
-   - Nombres y apellidos - URL de su repositorio Github
-   - Capturas de pantalla del proceso.
-   - Presentar los resultado del análisis realizado por el sistema de los cinco activos seleccionados.
+1. **Crear su propio repositorio en GitHub** (fork o clon del repositorio base) y subir todo el código fuente mejorado.
+2. Clonar y ejecutar el repositorio base proporcionado. 🔗 [URL GitHub](https://github.com/OscarJimenezFlores/CursoAuditoria/tree/main/AuditoriaRiesgos)
+3. Modificar el sistema para incluir una funcionalidad de **inicio de sesión ficticio sin base de datos** y mejorar el motor de IA en el código.
+4. Evaluar **5 activos de información** del entorno bancario (Lista Anexo 1).
+5. Elaborar un **informe de auditoría**, según instrucciones del apartado "Entregable",<span style="color: green"> **este informe estará desarrollado en el propio README.md de su proyecto y EXPORTADO a PDF para ser entregado en el aula virtual.**</span>
 ---
 
 ## Entregable
-- Informe técnico en formato PDF.
 
-## Anexo 1
+Copie y pegue la siguiente estructura en su README.md para que al términar todo el informe de auditoría lo convierta en PDF y suba al aula virtual.
+
+---
+# Informe de Auditoría de Sistemas - Examen de la Unidad I
+
+**Nombres y apellidos:**  
+**Fecha:**  
+**URL GitHub:**
+
+
+## 1. Proyecto de Auditoría de Riesgos
+
+### Login
+- **Evidencia:**  
+  [Captura del login]
+- **Descripción:** (Breve explicación de cómo se implementó el inicio de sesión ficticio).  
+
+### Motor de Inteligencia Artificial
+- **Evidencia:**  
+  [Captura de la sección del código fuente mejorado de IA que permite su funcionamiento]
+- **Descripción:** (Breve explicación de la sección de código mejorado que hace posible el funcionamiento de la IA en el sistema).  
+
+## 2. Hallazgos
+
+### Activo 1: (título del activo)
+- **Evidencia:** (Captura)
+- **Condición:** (Situación encontrada en el activo)  
+- **Recomendación:** (Acción correctiva o preventiva)  
+- **Riesgo:** Probabilidad (Baja/Media/Alta)
+
+
+### Activo 2: (título del activo)
+
+### Activo 3: (título del activo)
+
+### Activo 4: (título del activo)
+
+### Activo 5: (título del activo)
+
+
+---
+
+## Anexo 1: Activos de información
 | #  | Activo                                         | Tipo              |
 |----|-----------------------------------------------|-------------------|
 | 1  | Servidor de base de datos                               | Base de Datos     |
@@ -73,4 +111,16 @@ Por tanto deberá:
 | 48 | Sistema de Alertas de Seguridad               | Seguridad         |
 | 49 | Configuración del Cortafuegos                 | Seguridad         |
 | 50 | Redundancia de Servidores                     | Infraestructura   |
+
+
+## Anexo 2: Rúbrica de Evaluación
+
+La nota final es la suma de todos los criterios (máx. 20 puntos).
+
+| Criterio | 0 pts | 5 pts | Puntaje Máximo |
+|----------|-------|-------|----------------|
+| **Login** | No presenta evidencia o está incorrecto | Login ficticio completo, funcional y con evidencia clara | 5 |
+| **IA Funcionando** | No presenta IA o está incorrecta | IA implementada, funcionando y con evidencia clara | 5 |
+| **Evaluación de 5 Activos** | Menos de 5 activos evaluados o sin hallazgos válidos | 5 activos evaluados con hallazgos claros y evidencias | 5 |
+| **Informe claro y completo** | Informe ausente, incompleto o poco entendible | Informe bien estructurado y completo según lo requerido | 5 |
 

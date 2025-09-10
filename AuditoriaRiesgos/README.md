@@ -24,65 +24,63 @@ Identificación y gestión automatizada de riesgos en activos digitales, que uti
 ## Requisitos del Sistema
 
 ### Dependencias principales
-- Visual Studio Code
-- Node.js v18+ (para el frontend)
-- Python 3.9+ (para el backend)
-- Ollama instalado localmente
-- Git (para clonar el repositorio)
+- Visual Studio Code https://code.visualstudio.com
+- Node.js v18+ (para el frontend) https://nodejs.org/en/download
+- Python 3.9+ (para el backend o la versión más reciente) https://www.python.org/downloads/
+- Ollama instalado localmente https://ollama.com
+- Git (para clonar el repositorio) https://git-scm.com/downloads
 
 ## Instalación y Configuración
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/OscarJimenezFlores/CursoAuditoria/tree/c1470d3bd4dbc65dd70a6231a5ba64f456126336/AuditoriaRiesgos
-cd repositorio
+git clone https://github.com/OscarJimenezFlores/CursoAuditoria/tree/main/AuditoriaRiesgos
+cd AuditoriaRiesgos
 ```
 
-### 2. Configuración del Frontend
+### 2. Configuración del FRONTEND
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-La aplicación estará disponible en: http://localhost:5173
+El FRONT estará disponible en: http://localhost:5173
 
 ### 3. Configuración del Backend
 
 #### Para usuarios macOS
 ```bash
 brew install ollama
-ollama pull llama
-ollama run 
+ollama pull llama2:7b
+ollama run llama2:7b
 ```
 
 #### Para usuarios Windows
 
 1. Descargar el instalador desde ollama.com (https://ollama.com)  
-2. Ejecutar en PowerShell:
+2. O puede ejecutar en la terminal de VsCode / PowerShell:
 
 ```bash
-ollama run 
+ollama pull llama2:7b
+ollama run llama2:7b
 ```
-   Opcionalmente, puede verificar estado del servicio:
+
+   Opcionalmente, puede verificar el estado del servicio:
 ```bash
 tasklist | findstr ollama
 ```
 
-### 4. Iniciar el servidor Flask
+### 4. Iniciar el BACKEND servidor Flask
 
 ```bash
 python app.py
 ```
-Nota: Si encuentras problemas con la versión de Python, prueba con:
+Nota: Si encuentras problemas con la versión de Python, prueba con el numero de versión Python que instalaste, por ejemplo:
 ```bash
 python3.9 app.py
 ```
 
 ## Solución de Problemas Comunes
-
-#### Ollama no responde
-
-Verifica que el servicio esté ejecutándose en el puerto correcto (11434) y reinicia el servicio.
 
 #### Errores de dependencias
 
