@@ -46,27 +46,4 @@ graph TD
 | **Base de Datos** | SQLite |
 | **DevOps** | Docker, Docker Compose, Kubernetes, NGINX Ingress, GitHub Actions |
 
-## Cómo Empezar
-
-### Prerrequisitos
-
-- **Docker Desktop** instalado y funcionando (con Kubernetes activado).  
-- **Ollama** instalado y ejecutándose, con el modelo `llama3.1:8b` descargado:
-
-```bash
-ollama pull llama3.1:8b
-```
-### Docker
-
-#### Clona el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-```
-#### Clona el repositorio
-
-```bash
-docker-compose up --build
-```
-Accede a la interfaz 👉 http://localhost:5173
+Al acceder a la interfaz http://localhost:5173 debe interactuar hasta  Registra el Ticket en la Base de Datos, el cual debe ser vericable.
