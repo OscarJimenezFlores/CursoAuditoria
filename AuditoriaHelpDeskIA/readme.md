@@ -47,3 +47,5 @@ graph TD
 | **DevOps** | Docker, Docker Compose, Kubernetes, NGINX Ingress, GitHub Actions |
 
 Al acceder a la interfaz http://localhost:5173 debe interactuar hasta  Registra el Ticket en la Base de Datos, el cual debe ser vericable.
+
+Nota. Para este examen deberán usar smollm:360m en lugar de Llama 3.1
